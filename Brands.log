@@ -415,3 +415,85 @@ nominatim@openstreetmap.org to have this block lifted.</p>
 2023-11-20 11:40:15 - ERROR - An error occured at 5cb28f46-1492-4797-9ae3-80e3820ad637 Location should consist of two numerical values, but "9° 36' 0.12924'' N" of type <class 'str'> is not convertible to float.)
 
 
+2023-11-20 18:21:12 - ERROR - An error occured at b5b295c4-b62b-4bc4-9938-f0b2630cf3ce name 'lat' is not defined)
+
+
+2023-11-20 18:21:30 - INFO - Backing off _opencage_request(...) for 0.4s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.opencagedata.com', port=443): Max retries exceeded with url: /geocode/v1/json?q=Nigeria&key=675d80b4ef564d818d519baab776f1d5 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001841BFC9790>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')))
+2023-11-20 18:21:31 - INFO - Backing off _opencage_request(...) for 1.6s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.opencagedata.com', port=443): Max retries exceeded with url: /geocode/v1/json?q=Nigeria&key=675d80b4ef564d818d519baab776f1d5 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001841BFCBBD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')))
+2023-11-21 04:50:54 - ERROR - An error occured at acd62a18-fb72-46d0-bad6-cf0156260fef name 'pytube' is not defined)
+
+
+2023-11-21 05:32:28 - ERROR - An error occured at f97c2919-e469-4eeb-84ee-bbc7a3c34838 module 'openai' has no attribute 'chatCompletion')
+
+
+2023-11-21 05:34:06 - ERROR - An error occured at aa993103-0353-44cb-8dd0-c9e1593714e1 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+)
+
+
+2023-11-21 06:42:03 - ERROR - An error occured at 54874d69-4d7e-4d8b-a4c9-b1b72b054c4e 
+
+You tried to access openai.Completion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+)
+
+
+2023-11-21 06:48:53 - ERROR - An error occured at 9dc7c708-a07e-4233-8219-2bd3a522af69 'Chat' object has no attribute 'Completion')
+
+
+2023-11-21 06:49:19 - ERROR - An error occured at f5bdbaf7-0a9c-4b83-b0da-e90c2b717ef5 'Chat' object has no attribute 'Completions')
+
+
+2023-11-21 06:51:12 - INFO - Retrying request to /chat/completions in 0.955132 seconds
+2023-11-21 06:51:13 - INFO - Retrying request to /chat/completions in 1.680885 seconds
+2023-11-21 06:51:15 - ERROR - An error occured at dff45dc3-5de5-47c3-9958-bc06b65158a1 Connection error.)
+
+
+2023-11-21 07:02:15 - ERROR - No such comm target registered: jupyter.widget.control
+2023-11-21 07:02:15 - WARNING - No such comm: 493660f6-884c-4380-9cc2-71cc8ec9d1dc
+2023-11-21 07:03:48 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2023-11-21 07:03:48 - ERROR - An error occured at 2b02ee28-a380-4eba-b03b-c320826c0c51 Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_object' is not supported with this model.", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}})
+
+
+2023-11-21 07:04:07 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2023-11-21 11:50:26 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2023-11-21 11:56:17 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2023-11-21 18:03:28 - ERROR - An error occured at 635c32a4-9ad8-48b4-91c4-1a15e8b1bd62 [Errno 2] No such file or directory: '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')
+
+
+2023-11-21 18:04:51 - ERROR - An error occured at 5a9f2a74-0981-4262-a5fc-ceb0c53a9346 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+)
+
+
+2023-11-21 21:37:26 - ERROR - An error occured at c41528a5-536b-42b2-a0b0-2ac037446a1d Object of type bytes is not JSON serializable)
+
+
+2023-11-21 22:59:49 - ERROR - requestid:9fe3bc3c-6138-498e-8dd5-5c5e81c5bb47-2023112122594959S An error occured at No connection adapters were found for '{\n  "error": {\n    "message": "The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID 67cc4125c0e2abeb5b6b691055c2c6b1 in your email.)",\n    "type": "server_error",\n    "param": null,\n    "code": null\n  }\n}\n')
+
+
+2023-11-21 23:02:02 - ERROR - requestid:c23f95ac-3a1c-4309-b35d-546b8bd7733d-2023112123020202S An error occured at No connection adapters were found for '{\n  "id": "chatcmpl-8NT5cH1d4G2Y0hq6sPObFLRLNXSjL",\n  "object": "chat.completion",\n  "created": 1700604056,\n  "model": "gpt-3.5-turbo-0613",\n  "choices": [\n    {\n      "index": 0,\n      "message": {\n        "role": "assistant",\n        "content": "1. Dodge Data & Analytics: Dodge provides detailed information on construction projects, tenders, and bidding opportunities across various sectors in California. Their database is extensively used by contractors, architects, and suppliers.\\n\\n2. California Department of Transportation (Caltrans): Caltrans offers a wealth of information on transportation infrastructure projects and tenders throughout California. Their website provides project updates, bid advertisements, and construction contracts.\\n\\n3. BidClerk: BidClerk is a comprehensive construction project database that includes information on public and private projects in California. They provide project details, bid results, and contact information for relevant parties.\\n\\n4. Construction Bid Source: This platform aggregates information on construction projects and tenders from multiple sources, including government agencies, public notices, and private sector opportunities. They cover various sectors including infrastructure, residential, and commercial projects in California.\\n\\n5. California Construction News: California Construction News is an online publication that provides news and updates related to the construction industry in the state. They cover projects, tenders, industry trends, and major infrastructure developments.\\n\\n6. The Daily Journal: The Daily Journal is a legal and business news source that covers construction projects and tenders in California. They provide insights into project opportunities, legal notices, and developments in the construction industry.\\n\\n7. California Infrastructure Report (CIR): CIR publishes reports and articles on significant infrastructure projects, tenders, and policies in California. They focus on public infrastructure development, transportation, utilities, and sustainable construction initiatives.\\n\\n8. GovWin from Deltek: GovWin is an intelligence platform that provides information on government contracting opportunities, including construction projects and tenders in California. They offer detailed project descriptions, procurement timelines, and the agencies involved.\\n\\n9. BidNet: BidNet is a platform that centralizes government bids and tenders, including those in the construction sector. They cover various government agencies across California, providing access to bid documents, project details, and contact information.\\n\\n10. California General Services Department (CalGEM): CalGEM publishes information on construction projects and tenders related to public facilities managed by the state of California. Their website offers project solicitations, contractor requirements, and awarded bids.\\n\\nIt is recommended to visit these sources directly to verify their current offerings, as platforms and access to data may vary over time."\n      },\n      "finish_reason": "stop"\n    }\n  ],\n  "usage": {\n    "prompt_tokens": 27,\n    "completion_tokens": 463,\n    "total_tokens": 490\n  }\n}\n')
+
+
+2023-11-22 11:13:12 - ERROR - requestid:12394f58-4ffd-4a14-8b28-d9a603b3fe11-2023112211131213S An error occured at No connection adapters were found for '{"error":{"code":502,"message":"Bad gateway.","param":null,"type":"cf_bad_gateway"}}')
+
+
