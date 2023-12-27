@@ -1,6 +1,8 @@
-city,centigrade
-"Lagos,NG",32.18
-Nairobi,24.19
-New York,18.99
-Texas,21.99
-London,13.05
+clinic_id,clinic_name
+12600,Samaritan Health Ministries
+12602,"Erika Hegland, DO"
+12603,Mid America Sleep Service
+12604,Bridgeway Rehabilitation Services
+12607,Dr.'s Choice Physical Therapy
+12608,Physicians Care of Starke & Keystone
+12610,New Haven Neurosurgical Associates
